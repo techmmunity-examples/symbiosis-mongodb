@@ -1,0 +1,29 @@
+{
+	"name": "symbiosis-mongodb-example",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"@techmmunity/symbiosis": "^0.0.27",
+		"@techmmunity/symbiosis-mongodb": "^0.0.4",
+		"fastify": "^3.22.0",
+		"reflect-metadata": "^0.1.13",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@techmmunity/eslint-config": "^5.1.2",
+		"@types/node": "^16.11.1",
+		"@types/uuid": "^8.3.1",
+		"dotenv": "^10.0.0",
+		"eslint": "^8.0.1",
+		"prettier": "^2.4.1",
+		"ts-node-dev": "^1.1.8",
+		"tsconfig-paths": "^3.11.0",
+		"typescript": "^4.4.4"
+	},
+	"scripts": {
+		"format": "eslint . --fix --quiet",
+		"lint": "eslint . --quiet",
+		"start": "ts-node-dev -r tsconfig-paths/register src/index.ts"
+	}
+}
