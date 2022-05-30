@@ -55,6 +55,6 @@ tsconfig*
 !tsconfig.json
 !tsconfig.build.json
 
-# Symbiosis
-.symbiosis
-symbiosis.config.js
+# ThothOM
+.thothom
+thothom.config.js

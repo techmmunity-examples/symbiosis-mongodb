@@ -1,5 +1,5 @@
-import { setGlobalConnection } from "@techmmunity/symbiosis";
-import { Connection } from "@techmmunity/symbiosis-mongodb";
+import { setGlobalConnection } from "@thothom/core";
+import { Connection } from "@thothom/mongodb";
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const connect = async () => {
