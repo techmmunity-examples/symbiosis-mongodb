@@ -4,7 +4,8 @@ import {
 	getGlobalRepository,
 	PrimaryGeneratedColumn,
 	SubEntity,
-} from "@techmmunity/symbiosis";
+} from "@thothom/core";
+import { Repository } from "@thothom/mongodb";
 
 @SubEntity()
 export class SubExampleEntity {
@@ -29,4 +30,5 @@ export class ExampleEntity {
 	public subEntity: SubExampleEntity;
 }
 
-export const getExampleRepository = () => getGlobalRepository(ExampleEntity);
+export const getExampleRepository = () =>
+	getGlobalRepository<Repository<ExampleEntity>>(ExampleEntity);

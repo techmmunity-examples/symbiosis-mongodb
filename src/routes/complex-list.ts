@@ -1,4 +1,4 @@
-import { MoreThan } from "@techmmunity/symbiosis";
+import { MoreThan } from "@thothom/core";
 import { getExampleRepository } from "entity";
 
 export const complexList = async (_: any, reply: any) => {

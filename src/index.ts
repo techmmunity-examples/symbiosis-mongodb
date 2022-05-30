@@ -1,4 +1,4 @@
-import type { Connection } from "@techmmunity/symbiosis-mongodb";
+import type { Connection } from "@thothom/mongodb";
 import Fastify from "fastify";
 import { config } from "dotenv";
 
